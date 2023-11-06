@@ -1,0 +1,10 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.analysis.extraPaths": ["./helpers"],
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "C:/Github Repos/advent-of-code-python"
+  }
+}
