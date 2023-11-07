@@ -1,9 +1,6 @@
 from helpers import get_input as gi
-from pathlib import Path
 
-path = Path.cwd()
-
-input = gi.get_input(2015, 1, path)
+input = gi.get_input()
 
 split = list(input)
 
