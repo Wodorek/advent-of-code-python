@@ -15,7 +15,6 @@ def get_input(year, day, path):
         session_id = os.getenv('SESSION_ID')
         resp = requests.get(
             url, cookies={"session": session_id})  # type: ignore
-        print(resp.text)
         input_txt.write(resp.text)
 
     input_txt.seek(0)
