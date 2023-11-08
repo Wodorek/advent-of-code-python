@@ -8,8 +8,6 @@ def calculate_paper(l: int, w: int, h: int):
 
     sorted_vals = sorted([l, w, h])
 
-    print(sorted_vals)
-
     return bow + (sorted_vals[0] * 2) + (sorted_vals[1] * 2)
 
 
