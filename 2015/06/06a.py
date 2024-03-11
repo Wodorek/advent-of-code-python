@@ -24,7 +24,7 @@ parsed_inst = list(map(parse_data, direction_strings))
 def change_lights(lights, start, end, mode=None):
     startX, startY = start
     endX, endY = end
-    print(mode)
+
     for i in range(startX, endX + 1):
         for j in range(startY, endY + 1):
             if mode == None:
