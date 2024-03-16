@@ -9,11 +9,14 @@ load_dotenv()
 
 def get_input():
 
+    print('inpu')
+
     path = Path.cwd()
 
     path_string = path.as_posix().split('/')
 
-    file_path = f'{path}\\input.txt'
+    file_path = f'{path}/input.txt'
+    print('fp', file_path)
     input_txt = open(file_path, "a+")
 
     if os.stat(input_txt.name).st_size == 0:

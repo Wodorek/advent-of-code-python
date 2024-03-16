@@ -3,8 +3,13 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "python.analysis.extraPaths": ["./helpers"],
+  "python.analysis.extraPaths": [
+    "/home/wodorek/Desktop/GithubRepos/advent-of-code-python"
+  ],
   "terminal.integrated.env.windows": {
-    "PYTHONPATH": "C:/Github Repos/advent-of-code-python"
+    "PYTHONPATH": "/home/wodorek/Desktop/GithubRepos/advent-of-code-python"
+  },
+  "terminal.integrated.env.linux": {
+    "PYTHONPATH": "/home/wodorek/Desktop/GithubRepos/advent-of-code-python"
   }
 }
